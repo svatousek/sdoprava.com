@@ -31,9 +31,9 @@
       /* Vylepšené pozadí s více skvrnami */
       background:
         radial-gradient(40rem 40rem at 20% -10%, var(--spot-yellow), transparent 75%),
-        radial-gradient(30rem 30rem at 80% 100%, var(--spot-yellow), transparent 75%),
+        radial-gradient(30rem 30rem at 80% 100%, var(--spot-red), transparent 75%),
         radial-gradient(35rem 35rem at 60% 50%, var(--spot-yellow), transparent 80%),
-        radial-gradient(25rem 25rem at 10% 70%, var(--spot-yellow), transparent 80%),
+        radial-gradient(25rem 25rem at 10% 70%, var(--spot-red), transparent 80%),
         var(--bg-dark);
       background-attachment: fixed;
       line-height: 1.65;
