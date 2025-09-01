@@ -282,7 +282,6 @@ main {
 }
 .feature-text {
   font-weight: 500;
-  color: var(--text);
 }
 
 /* extra box kolem info textu */
@@ -292,6 +291,8 @@ main {
   border-radius: 12px;
   border-left: 3px solid var(--accent-red);
   margin-top: 20px;
+  font-weight: 500;
+  color: var(--text);
 }
 
 /* ===== MEDIA QUERIES ===== */
