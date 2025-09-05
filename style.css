@@ -178,35 +178,98 @@ section{
   margin:20px 0;
 }
 
+
 /* ===== ABOUT: text + fotka ===== */
-.about-grid{
-  display:grid;
-  gap:28px;
+#about {
+  padding: 60px 20px;
+}
+
+.about-grid {
+  display: grid;
+  gap: 40px;
   grid-template-columns: 1fr;
+  max-width: 1100px;
+  margin: 0 auto;
 }
-.about-photo{
-  padding:14px;
-  display: flex;
-  flex-direction: column;
+
+.about-text h3 {
+  margin: 0 0 12px;
+  font-size: clamp(30px, 4vw, 40px);
+  color: var(--accent);
+  font-weight: 700;
 }
-.about-photo img{
-  display:block;
-  width:100%;
-  height: auto;
-  border-radius:16px;
-  border:1px solid var(--stroke);
-  filter: saturate(1.02) contrast(1.02);
-  box-shadow: var(--shadow);
+
+.about-text p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.features-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+
+.features-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  transform: skewX(-20deg);
+}
+
+.contact-info {
+  background: rgba(255, 50, 50, 0.08);
+  color: var(--text);
+  padding: 18px 20px;
+  border-radius: 12px; 
+  border-left: 3px solid var(--accent-red);
+  font-size: 16px;
+  font-weight: 400; 
+  line-height: 1.6; 
+  margin-top: 25px; 
+}
+
+.about-photo {
+  text-align: center;
+}
+
+.about-photo img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  border: 3px solid var(--black);
   transition: transform 0.3s ease;
 }
+
 .about-photo img:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
-.about-photo figcaption{
-  margin-top:12px;
-  font-size:14px;
-  text-align:center;
+
+.about-photo figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--black);
 }
+
+/* pro větší obrazovky */
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
 
 /* ===== KONTAKT ===== */
 .contact-card{
