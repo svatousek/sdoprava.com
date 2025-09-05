@@ -19,6 +19,7 @@
   --spot-orange: rgba(255, 120, 0, 0.12);
   --spot-purple: rgba(160, 0, 255, 0.08);
   --spot-red: rgba(255,50,50,.12);
+
 }
 
 *{box-sizing:border-box}
