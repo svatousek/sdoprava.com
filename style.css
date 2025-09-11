@@ -1,7 +1,7 @@
 /* ===== ZÁKLADNÍ NASTAVENÍ ===== */
 :root{
   --bg-dark: rgba(10,10,10,.92);
-  --accent: #FFCE00;
+  --accent: #FFB500;
   --accent-red: #FF3232;
   --text: #EDEDED;
   --muted: #B9B9B9;
@@ -11,7 +11,7 @@
   --radius: 22px;
   --maxw: 1200px;
 
-  --spot-yellow: rgba(246,192,0,.14);
+  --spot-yellow: rgba(246, 201, 0, 0.14);
   --spot-cyan: rgba(0,200,200,.10);
   --spot-magenta: rgba(220,0,160,.08);
   --spot-blue: rgba(80,140,255,.10);
