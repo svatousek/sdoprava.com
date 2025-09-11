@@ -1,3 +1,4 @@
 # sdoprava.com
-Spolehlivá doprava osob do zaměstnání, smluvní přepravu a přepravu menších zásilek v oblasti Mladé Boleslavi a okolí.
+Smluvní přeprava osob a zásilek. Přeprava osob v rámci CZ (letiště atd). Svozy zaměstnání v rámci okresu Mladá Boleslav
 sdoprava@hotmail.com
++420 776 386 500
